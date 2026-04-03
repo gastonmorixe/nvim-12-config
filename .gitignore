@@ -1,0 +1,27 @@
+# Neovim Configuration Ignore List
+
+# Dependencies and Package Management
+node_modules/
+.DS_Store
+*.log
+.nvimlog
+nvim-pack-lock.json
+
+# Temporary and Workspace Files
+tmp/
+work/
+.tmp-*
+.node-net-dbg/
+
+# Editor Session and State
+undo/
+swap/
+backup/
+shada/
+
+# Personal / Local Overrides
+.neoconf.json
+.claude/
+AGENTS.md
+NOTES.md
+PROGRESS.md
